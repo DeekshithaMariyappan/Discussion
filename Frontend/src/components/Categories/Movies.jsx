@@ -4,7 +4,7 @@ const AI = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/getMoviesposts")
+    fetch("https://forumsystemboard.onrender.com/getMoviesposts")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);
