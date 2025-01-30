@@ -1,0 +1,41 @@
+
+.search-topics {
+  text-align: center;
+  padding: 20px;
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.search-topics h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: black;
+}
+
+.topics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; 
+  padding: 10px;
+}
+
+.topic-box {
+  width: 180px;
+  padding: 15px;
+  background: black;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.topic-box a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.topic-box:hover {
+  background-color: red;
+}

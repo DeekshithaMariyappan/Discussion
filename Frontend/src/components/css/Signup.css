@@ -1,0 +1,53 @@
+
+.form-container {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.6);
+  }
+  
+  h2 {
+    color: red;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .signup-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background: darkred;
+  }
+  
+  .switch-link {
+    margin-top: 10px;
+  }
+  
+  .switch-link a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .switch-link a:hover {
+    text-decoration: underline;
+  }
+  
