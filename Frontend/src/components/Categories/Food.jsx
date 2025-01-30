@@ -4,7 +4,7 @@ const Food = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("https://forumsystemboard.onrender.com/Food")
+    fetch("https://forumsystemboard.onrender.com/getFoodposts")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);
