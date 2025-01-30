@@ -15,7 +15,7 @@ const Signup = () => {
     
     try{
       console.log("Event Trigger");
-      const req = await axios.post("http://localhost:3001/signup",{
+      const req = await axios.post("https://forumsystemboard.onrender.com/signup",{
       firstname: firstname,
       lastname: lastname,
       email: email,
