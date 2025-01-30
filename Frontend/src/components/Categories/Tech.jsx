@@ -4,7 +4,7 @@ const Tech = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/getposts")
+    fetch("https://forumsystemboard.onrender.com/getposts")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);
