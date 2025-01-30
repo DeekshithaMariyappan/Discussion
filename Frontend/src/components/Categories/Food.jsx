@@ -4,7 +4,7 @@ const Food = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("https://forumsystemboard.onrender.com/getAIposts")
+    fetch("https://forumsystemboard.onrender.com/Food")
       .then((res) => res.json())
       .then((data) => setPosts(data));
   }, []);
